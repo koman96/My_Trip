@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignFragment"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you are not signed yet, please choose the Sign in method :"
+        android:textColor="@color/brown"
+        android:padding="20dp"
+        android:gravity="left"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_SignBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+        <com.facebook.login.widget.LoginButton
+            xmlns:facebook="http://schemas.android.com/apk/res-auto"
+            facebook:com_facebook_login_text="sign in with Facebook"
+            android:id="@+id/facebook_signBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</LinearLayout>

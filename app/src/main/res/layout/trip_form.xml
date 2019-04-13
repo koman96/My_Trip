@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="5"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false"
+    android:padding="10dp"
+    android:layout_gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip name :"
+            android:textSize="15sp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="trip name"
+            android:ems="5"
+            android:gravity="center"
+            android:id="@+id/trip_name"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starting point :"
+            android:textSize="15sp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <AutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="type here"
+            android:id="@+id/starting_point"
+            android:background="@drawable/textview_background"
+            android:padding="5dp"
+            android:dropDownHorizontalOffset="-30dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ending point :"
+            android:textSize="15sp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <AutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="type here"
+            android:gravity="center"
+            android:id="@+id/ending_point"
+            android:padding="5dp"
+            android:background="@drawable/textview_background"
+            android:dropDownWidth="250dp"
+            android:dropDownHorizontalOffset="-30dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip date :"
+            android:textSize="15sp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="click here"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/trip_date"
+            android:background="@drawable/textview_background"
+            android:padding="10dp"
+            android:textColor="@color/deepAqua"
+            android:textColorHint="@color/deepAqua"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip time :"
+            android:textSize="15sp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="click here"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/trip_time"
+            android:background="@drawable/textview_background"
+            android:padding="10dp"
+            android:textColor="@color/deepAqua"
+            android:textColorHint="@color/deepAqua"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+</GridLayout>

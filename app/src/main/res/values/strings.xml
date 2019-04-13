@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Trip</string>
+
+    <string name="facebook_application_id" translatable="false">1460756380725821</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1460756380725821</string>
+    <string name="google_API_key" translatable="false">AIzaSyAsVDINGnaTkfdZ0vIwudERSCL8_oIUV2w</string>
+    <string name="mapBox_token" translatable="false">pk.eyJ1IjoibW9qbzIyMiIsImEiOiJjanNpeGc3NzkyNWE0NDR0YnRrZXk0MzE1In0.oY3D57psncorj3MdNh4NmQ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

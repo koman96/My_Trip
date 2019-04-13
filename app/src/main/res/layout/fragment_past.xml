@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PastFragment"
+    android:orientation="vertical"
+    android:layoutDirection="ltr">
+
+    <include
+        layout="@layout/main_toolbar"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="your past Trips :"
+                android:id="@+id/tripsGuide_txt"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:visibility="invisible"
+                android:textColor="@color/deepAqua"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/trip_list"
+                android:dividerHeight="10dp"
+                android:divider="@color/white"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/side_bar"/>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>
